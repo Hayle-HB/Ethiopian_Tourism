@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethiopia Today</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fc0e7b7945.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="background"></div>
+        <div class="header-img-description">
+            Ethiopia Today
+        </div>
+        <div class="nav">
+            <a href="..\..\Home_page\index.html"><img id="logo" src="images/logo.jpg" alt="logo/Home"></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Destination</button>
+                    <div class="dropdown-content">
+                        <!-- ..\Destination_page\Addis_Ababa_and_Surrounding\index.html
+
+                    ..\Home_page\index.html -->
+                        <a href="..\..\Destination_page\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a>
+                        <a href="..\..\Destination_page\North_Ethiopia\index.html">North Ethiopia</a>
+                        <a href="..\..\Destination_page\South_Ethiopia\index.html">South Ethiopia</a>
+                        <a href="..\..\Destination_page\East\index.html">The Marvel of the East</a>
+                        <a href="..\..\Destination_page\Afar\index.html">The Afar</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Things to do</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a>
+                        <a href="..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your Trip</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a>
+                        <a href="..\..\Plan_your_trip\book_flight\index.html">Book a Flight</a>
+                        <a href="..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a>
+                        <a href="..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">About Ethiopia</button>
+                    <div class="dropdown-content">
+                        <a href="..\about_the_country\index.html">About the Country</a>
+                        <a class="current" href="index.html">Ethiopia Today</a>
+                        <a href="..\flora_and_fauna\index.html">Fauna and Flora</a>
+                        <a href="..\Lifestyle\index.html">Lifestyle</a>
+                    </div>
+                </div>
+                
+                <a id="signup" href="..\..\SignUp_page\signup.html" target="_blank">Sign Up</a>
+            </div>
+
+            <!-- for mobile phones -->
+
+            <a href="javascript:void(0);" class="hum-button" onclick="humClick()">
+                <i id="hum1" class="fa-solid fa-bars list-down"></i>
+                <i id="hum2" class="fa-solid fa-xmark cancel-list"></i>
+            </a>
+            <div id="menubtn" class="menu">
+                <div class="drop-content">
+                    <div class="menu-button">Destination</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Destination_page\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a></div>
+                        <div class="menu-link"><a href="..\..\Destination_page\North_Ethiopia\index.html">North Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\Destination_page\South_Ethiopia\index.html">South Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\Destination_page\East\index.html">The Marvel of the East</a></div>
+                        <div class="menu-link"><a href="..\..\Destination_page\Afar\index.html">The Afar</a></div> 
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Things to do</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a></div>
+                        <div class="menu-link"><a href="..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a></div>
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Plan your Trip</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a></div>
+                        <div class="menu-link"><a href="..\..\Plan_your_trip\book_flight\index.html">Book your Flight</a></div>
+                        <div class="menu-link"><a href="..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a></div>
+                        <div class="menu-link"><a href="..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a></div>
+                    </div>
+
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">About Ethiopia</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\about_the_country\index.html">About the Country</a></div>
+                        <div class="menu-link current"><a href="index.html">Ethiopia Today</a></div>
+                        <div class="menu-link"><a href="..\flora_and_fauna\index.html">Fauna and Flora</a></div>
+                        <div class="menu-link"><a href="..\Lifestyle\index.html">Life Style</a></div>
+                    </div>
+                </div>
+                <a href="..\..\signup.html" target="_blank">Sign Up</a>
+            </div>
+            <!-- mobile ends here -->
+        </div>
+    </div>
+
+    <section class="description">
+        <p>Steeped in history and ethnic diversity, Ethiopia today is a federal democracy whose wealth of cultural and natural attractions, progressive social policies and fast growing economy are contributing to its emergence as a word class tourist destination.
+            <br><br>
+            In 1994, Ethiopia introduced a federal system of governance that has helped to transform its social, cultural and economic progress. The capital Addis Ababa is the seat of many international organizations, notably the African Union (AU) and United Nations Economic Commission for Africa (UNECA). The remarkable economic and infrastructural development over the past two decades, together with the significant role it plays in African and World politics, has enabled Ethiopia to greatly improve its allure to tourists interested in history, culture, nature and the origin of humanity.
+            <br><br>
+            Ethiopia is a mosaic of peoples and cultures who collectively speak more than 80 languages and practice two of the world’s major religions (Christianity and Islam) along with various other faiths.
+            <br><br>
+            Ethiopia is a Federal Democratic Republic whose government is highly committed to transformation of tourism into a major economic sector.
+            <br><br>
+            The booming Ethiopian economy is not only the fifth largest in Africa but also ranked fifth in the world in terms of continued year-on-year growth over the past decade.</p>
+    </section>
+
+
+    <div class="footer">
+        <div class="upperfoot">
+            <div class="footlogo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+
+            <div class="links">
+                <h3>Usefull Links</h3>
+                <li><a href="..\..\Home_page\index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+            </div>
+            <div class="footericons">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                   <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                   <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                   <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                </div>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                    <div class="icons">
+                        <li><i class="fa fa-map"></i></li>
+                        <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                        <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                    </div>
+            </div>
+
+            <div class="fcontent">
+                <div class="links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="..\..\Home_page\index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                </div>
+                <div class="footericons">
+                    <h3>Follow Us</h3>
+                    <div class="icons">
+                       <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                       <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                       <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                    </div>
+                </div>
+                <div class="address">
+                    <h3>Address</h3>
+                        <div class="icons">
+                            <li><i class="fa fa-map"></i></li>
+                            <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                            <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                        </div>
+                </div>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="footersection">
+            <p>© 2023 Ethiopian Tourism. All rigths reserved</p>
+            <div class="ptc">
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms and Conditions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

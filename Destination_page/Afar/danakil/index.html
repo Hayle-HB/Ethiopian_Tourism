@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danakil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fc0e7b7945.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="background"></div>
+        <div class="header-img-description">
+            Danakil Depression
+        </div>
+        <div class="nav">
+            <a href="..\..\..\Home_page\index.html"><img id="logo" src="images/logo.jpg" alt="logo/Home"></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Destination</button>
+                    <div class="dropdown-content">
+                        <!-- ..\Destination_page
+
+                    ..\Home_page\index.html -->
+                        <a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a>
+                        <a href="..\..\North_Ethiopia\index.html">North Ethiopia</a>
+                        <a href="..\..\South_Ethiopia\index.html">South Ethiopia</a>
+                        <a href="..\..\East\index.html">The Marvel of the East</a>
+                        <a href="..\index.html">The Afar</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Things to do</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a>
+                        <a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your Trip</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a>
+                        <a href="..\..\..\Plan_your_trip\book_flight\index.html">Book a Flight</a>
+                        <a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a>
+                        <a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">About Ethiopia</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a>
+                        <a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a>
+                        <a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a>
+                        <a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Lifestyle</a>
+                    </div>
+                </div>
+                
+                <a id="signup" href="..\..\..\SignUp_page\signup.html" target="_blank">Sign Up</a>
+            </div>
+
+            <!-- for mobile phones -->
+
+            <a href="javascript:void(0);" class="hum-button" onclick="humClick()">
+                <i id="hum1" class="fa-solid fa-bars list-down"></i>
+                <i id="hum2" class="fa-solid fa-xmark cancel-list"></i>
+            </a>
+            <div id="menubtn" class="menu">
+                <div class="drop-content">
+                    <div class="menu-button">Destination</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a></div>
+                        <div class="menu-link"><a href="..\..\North_Ethiopia\index.html">North Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\South_Ethiopia\index.html">South Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\East\index.html">The Marvel of the East</a></div>
+                        <div class="menu-link"><a href="..\index.html">The Afar</a></div> 
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Things to do</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a></div>
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a></div>
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Plan your Trip</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\book_flight\index.html">Book your Flight</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a></div>
+                    </div>
+
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">About Ethiopia</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Life Style</a></div>
+                    </div>
+                </div>
+                <a href="..\..\..\signup.html" target="_blank">Sign Up</a>
+            </div>
+            <!-- mobile ends here -->
+        </div>
+    </div>
+
+    <section class="description">
+        <p>Set at the juncture of three tectonic plates, the Danakil is one of the world’s lowest-lying places, 
+            set mostly below sea level, and it officially ranks as the hottest inhabited place on earth, with an average daily maximum of 41°C. 
+            Much of the region comprises sun-cracked salt-flats that stretch like blinding-white crazy paving towards a shimmering flat horizon. 
+            However, the high level of tectonic activity means that more than 30 active volcanoes protrude from this stretch Great Rift Valley floor. 
+            These include the iconic Erta Ale, which has hosted a permanent lava flow since the late 19th century, 
+            and the Dallol Crater with its sulfurous pools enclosed by strange pastel-hued crystalline formations.
+        </p>
+    </section>
+
+    <h2>What to see?</h2>    
+    <hr>
+    <div class="text">
+        The Danakil’s top attraction is Erta Ale, a 613m-high shield volcano whose caldera of crumbling black rock contains the world’s oldest permanent lava lake. Bubbling at temperatures of more than 1,000˚C, this ellipsoid cauldron of black-and-red magma is a truly mesmerizing phenomenon, as violent red fountains of molten rock spurt tens of meters in the sky, accompanied by nose-searing waves of ammonia gas. Accessible only on foot or by camelback, Erta Ale is reached along a gradually sloping 10km path through shadeless terrain that can be treacherously hot in full daylight. It is conventional to ascend in the late afternoon to avoid the midday heat, then sleep at the top and return to the base early the next morning.
+        <br><br>Set in a flat-sided shallow explosion crater, the Dallol Springs comprises a field of multicolored geysers that bubble over into a series of steaming sulfurous pools dotted with conical yellow-green vents and crystalline formations of red, orange, and white. It is especially beautiful in the early morning and late afternoon, which is also when the temperature is most bearable.
+        <br><br>Once a bay in the Red Sea, the hyper-saline Lake As Ale lies at the heart of a 1,200km2 expanse of salt-encrusted flats that have been mined by the local Afar for millennia. Even today, visitors might come to cross dozens of Afar miners chipping at the salt flat’s crumbly off-white crust to extract neat 30cm x 40cm amole salt bars. The salt is then transported by camel to the highlands by caravaneers from Tigray.
+        <br><br>Set at 103m below sea level, the lovely emerald-hued Lake Afdera laps the shore of what is regarded to be the world’s lowest-lying island. Now accessible on an asphalt road that runs through the village of Afdera, the lake is an important source of salt, which is obtained from artificial evaporation pools along the western shore. You can swim or camp at a set of freshwater hot springs on the west shore close to Afdera village.
+    </div>
+    
+    <h2 class="drop-head">Getting There</h2>
+        <div class="drop-text">
+            <div class="text">
+                Explore the Danakil from either the Tigraian capital Mekele (760km north of Addis Ababa by road), or the Afar capital Semera (590km from Addis Ababa). Both are connected to Addis Ababa by daily flights (www.ethiopianairlines.com).
+                <br><br>
+                The Danakil is a genuine expedition destination. Although a good 350km road now runs from Semera to Mekele via Afdera, the tracks to Dallol and Do Dom (for Erta Ale) require 4×4 and navigational skills. The region is best visited with an experienced operator using a minimum of two 4x4s, and experienced staff who know the local Afar. Helicopter access is from Mekele.
+                <br><br>
+                Most organized tours start in Addis Ababa. Operators also offer tours directly out of Semera and Mekele. The minimum time required for a full tour is two nights, spending one at Hamed Ela and one on the rim of Erta Ale. An extra night at Erta Ale is recommended if you want to see the crater by day, and another for Lake Afdera.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Getting Around</h2>
+        <div class="drop-text">
+            <div class="text">
+                Most sites in the region can be accessed by 4×4 only. To get to Erta Ale, you must hike 10km along gently ascending slopes to the crater rim. There is no shade, and daytime temperatures tend to be searingly hot, so ascend at dusk and return early the next morning.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Accommodation</h2>
+        <div class="drop-text">
+            <div class="text">
+                A selection of hotels can be found in both Semera and Mekele. No formal accommodation exists once in the Danakil, though basic camping shelters are available at Hamed Ela, Do Dom and the Erta Ale crater rim. You can camp at the hot springs on the west shore of Lake Afdera.
+            </div>
+        </div>      
+    <hr>
+    
+
+    <div class="footer">
+        <div class="upperfoot">
+            <div class="footlogo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+
+            <div class="links">
+                <h3>Usefull Links</h3>
+                <li><a href="..\..\Home_page\index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+            </div>
+            <div class="footericons">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                   <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                   <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                   <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                </div>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                    <div class="icons">
+                        <li><i class="fa fa-map"></i></li>
+                        <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                        <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                    </div>
+            </div>
+
+            <div class="fcontent">
+                <div class="links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="..\..\..\Home_page\index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                </div>
+                <div class="footericons">
+                    <h3>Follow Us</h3>
+                    <div class="icons">
+                       <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                       <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                       <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                    </div>
+                </div>
+                <div class="address">
+                    <h3>Address</h3>
+                        <div class="icons">
+                            <li><i class="fa fa-map"></i></li>
+                            <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                            <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                        </div>
+                </div>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="footersection">
+            <p>© 2023 Ethiopian Tourism. All rigths reserved</p>
+            <div class="ptc">
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms and Conditions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

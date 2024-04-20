@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konso</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fc0e7b7945.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="background"></div>
+        <div class="header-img-description">
+            Konso: Cultural Landscape
+        </div>
+        <div class="nav">
+            <a href="..\..\..\Home_page\index.html"><img id="logo" src="images/logo.jpg" alt="logo/Home"></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Destination</button>
+                    <div class="dropdown-content">
+                        <!-- ..\Destination_page
+
+                    ..\Home_page\index.html -->
+                        <a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a>
+                        <a href="..\..\North_Ethiopia\index.html">North Ethiopia</a>
+                        <a href="..\index.html">South Ethiopia</a>
+                        <a href="..\..\East\index.html">The Marvel of the East</a>
+                        <a href="..\..\Afar\index.html">The Afar</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Things to do</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a>
+                        <a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your Trip</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a>
+                        <a href="..\..\..\Plan_your_trip\book_flight\index.html">Book a Flight</a>
+                        <a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a>
+                        <a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">About Ethiopia</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a>
+                        <a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a>
+                        <a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a>
+                        <a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Lifestyle</a>
+                    </div>
+                </div>
+                
+                <a id="signup" href="..\..\..\SignUp_page\signup.html" target="_blank">Sign Up</a>
+            </div>
+
+            <!-- for mobile phones -->
+
+            <a href="javascript:void(0);" class="hum-button" onclick="humClick()">
+                <i id="hum1" class="fa-solid fa-bars list-down"></i>
+                <i id="hum2" class="fa-solid fa-xmark cancel-list"></i>
+            </a>
+            <div id="menubtn" class="menu">
+                <div class="drop-content">
+                    <div class="menu-button">Destination</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a></div>
+                        <div class="menu-link"><a href="..\..\North_Ethiopia\index.html">North Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\index.html">South Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\East\index.html">The Marvel of the East</a></div>
+                        <div class="menu-link"><a href="..\..\Afar\index.html">The Afar</a></div> 
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Things to do</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a></div>
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a></div>
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Plan your Trip</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\book_flight\index.html">Book your Flight</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a></div>
+                    </div>
+
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">About Ethiopia</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Life Style</a></div>
+                    </div>
+                </div>
+                <a href="..\..\..\signup.html" target="_blank">Sign Up</a>
+            </div>
+            <!-- mobile ends here -->
+        </div>
+    </div>
+
+    <section class="description">
+        <p>A UNESCO World Heritage Site since 2011, the Konso Cultural Landscape is named after its agriculturist inhabitants, who have molded their 230km2 homeland of semi-arid hills into productive agricultural land. A striking feature of Konso is the ancient hilltop paleta (terrace and walled villages) – strange hobbit-warrens towered over by generation poles felled from a sacred forest, and studded with curvaceous thatched community houses. The Konso are also renowned for their waka grave-markers, anthropomorphic hardwood statues carved to mimic the deceased, and for their communally constructed reservoirs</p>
+    </section>
+
+    <h2>What to see?</h2>
+    <hr>
+    <div class="text">
+        <ul>
+            <li>Konso’s hilltop paleta villages emphasize defensive structures. Each village is encircled by up to six concentric dry-stone basalt walls that stand around 4 meters high and are entered only through two or more ceremonial gates. About two dozen traditional villages are scattered around the World Heritage Site, the most frequently visited being Mecheke, Dokatu, Gamole and Buso.</li>
+            <li>A village is divided into several subcommittees, each with its own mora, a striking open-sided and thatch-roofed community house.</li>
+            <li>The oldest mora in a village stands alongside a small common where an olahita (generation pole) is erected every 18 years to mark the initiation of a new generation-set. The age of any given paleta can be determined by counting its generation poles: Dokatu with 43 olahita indicating an age of more than 750 years, is claimed to be the oldest village in Konso,</li>
+            <li>In some villages, the exploits of a celebrated age-set are commemorated by the erection of a stone obelisk called a daga-hela, a custom that makes Konso one of the world’s last existing megalithic cultures.</li>
+            <li>The Konso erect impressionistic wooden waka grave-markers at the burial place of an important man or particularly brave warrior. Although many waka can still be seen in situ, the Konso Museum displays around 200 examples that were confiscated by the local authorities after being looted by foreign collectors.</li>
+            <li>The Konso countryside typically comprises hard, dry, rocky slopes, so the people have developed an extensive system of dry-stone terracing to prevent erosion and create saddles for agriculture.</li>
+            <li>Gesergiyo is a Konso village best known for a nearby gorge filled with skyscraper-like water-sculpted sand pinnacles nicknamed ‘New York’.</li>
+            <li>The sacred Kalla Forest is the site of an important chief’s compound and the new Konso Coffee Cooperative, which uses a traditional dry method to process the coffee beans.</li>
+        </ul>
+    </div>
+    
+    <h2 class="drop-head">Getting There</h2>
+        <div class="drop-text">
+            <div class="text">
+                Karat-Konso lies about 540km south of Addis Ababa along a good road through Butajira and Arba Minch. Most visitors to Konso drive there as part of an organized tour, also taking in the South Omo zone to the west. The closest airport is at Arba Minch, 85km to the north of Konso. Ethiopian Airlines (www.ethiopianairlines.com) operates daily flights to Arba Minch from Addis Ababa. Hotels in Arba Minch can arrange transfers or tours to Karat Konso.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Getting Around</h2>
+        <div class="drop-text">
+            <div class="text">
+                The area is most often explored on an organized 4×4 tour out of Addis Ababa or Arba Minch. All visitors must report to the Konso Tourist Information Centre in Karat-Konso to pay entrance fees and arrange a mandatory guide before visiting any of the traditional villages. The Konso Tourist Information Centre can also arrange multi-day overnight hikes taking in several villages as well as the Doha hot springs and rock formations at Gesergiyo.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Accommodation</h2>
+        <div class="drop-text">
+            <div class="text">
+                There are two proper tourist lodges on the outskirts of Karat-Konso. Several small budget hotels can be found in the town center
+            </div>
+        </div>      
+    <hr>
+    
+
+    <div class="footer">
+        <div class="upperfoot">
+            <div class="footlogo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+
+            <div class="links">
+                <h3>Usefull Links</h3>
+                <li><a href="..\..\Home_page\index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+            </div>
+            <div class="footericons">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                   <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                   <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                   <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                </div>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                    <div class="icons">
+                        <li><i class="fa fa-map"></i></li>
+                        <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                        <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                    </div>
+            </div>
+
+            <div class="fcontent">
+                <div class="links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="..\..\Home_page\index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                </div>
+                <div class="footericons">
+                    <h3>Follow Us</h3>
+                    <div class="icons">
+                       <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                       <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                       <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                    </div>
+                </div>
+                <div class="address">
+                    <h3>Address</h3>
+                        <div class="icons">
+                            <li><i class="fa fa-map"></i></li>
+                            <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                            <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                        </div>
+                </div>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="footersection">
+            <p>© 2023 Ethiopian Tourism. All rigths reserved</p>
+            <div class="ptc">
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms and Conditions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

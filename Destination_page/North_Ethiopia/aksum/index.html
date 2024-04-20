@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fc0e7b7945.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="background"></div>
+        <div class="header-img-description">
+            Aksum
+        </div>
+        <div class="nav">
+            <a href="..\..\..\Home_page\index.html"><img id="logo" src="images/logo.jpg" alt="logo/Home"></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Destination</button>
+                    <div class="dropdown-content">
+                        <!-- ..\Destination_page
+
+                    ..\Home_page\index.html -->
+                        <a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a>
+                        <a href="..\index.html">North Ethiopia</a>
+                        <a href="..\..\South_Ethiopia\index.html">South Ethiopia</a>
+                        <a href="..\..\East\index.html">The Marvel of the East</a>
+                        <a href="..\..\Afar\index.html">The Afar</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Things to do</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a>
+                        <a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your Trip</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a>
+                        <a href="..\..\..\Plan_your_trip\book_flight\index.html">Book a Flight</a>
+                        <a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a>
+                        <a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">About Ethiopia</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a>
+                        <a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a>
+                        <a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a>
+                        <a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Lifestyle</a>
+                    </div>
+                </div>
+                
+                <a id="signup" href="..\..\..\SignUp_page\signup.html" target="_blank">Sign Up</a>
+            </div>
+
+            <!-- for mobile phones -->
+
+            <a href="javascript:void(0);" class="hum-button" onclick="humClick()">
+                <i id="hum1" class="fa-solid fa-bars list-down"></i>
+                <i id="hum2" class="fa-solid fa-xmark cancel-list"></i>
+            </a>
+            <div id="menubtn" class="menu">
+                <div class="drop-content">
+                    <div class="menu-button">Destination</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a></div>
+                        <div class="menu-link"><a href="..\index.html">North Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\South_Ethiopia\index.html">South Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\East\index.html">The Marvel of the East</a></div>
+                        <div class="menu-link"><a href="..\..\Afar\index.html">The Afar</a></div> 
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Things to do</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a></div>
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a></div>
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Plan your Trip</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\book_flight\index.html">Book your Flight</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a></div>
+                    </div>
+
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">About Ethiopia</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Life Style</a></div>
+                    </div>
+                </div>
+                <a href="..\..\..\signup.html" target="_blank">Sign Up</a>
+            </div>
+            <!-- mobile ends here -->
+        </div>
+    </div>
+
+    <section class="description">
+        <p>A UNESCO World Heritage site since 1980, Aksum is ‘Sacred’ as Jerusalem, old as Rome and historical as Constantinople, is an exceptional place in Ethiopia. Considered the beacon of Ethiopian Christianity, Axum is the mirror of the glorious period of Ethiopia. It served as the capital of the Aksumite Kingdom, which was the dominant trade entity in the Horn of Africa for over a millennium prior to the rise of Islam, stretching from the Sudanese Nile across the Red Sea to Yemen. Ruined palaces, obelisks, mausoleums, ruined churches, megalithic erected stones, coins, and manuscripts witness the golden period of the Aksumite Empire. The importance of the city is much elevated as it houses the most valuable and sacred relics of the tablet of Mosses or the arks of the covenant and as the place where one of the ‘Three Wise Men’ buried here.</p>
+    </section>
+
+    <h2>What to see?</h2>
+    <hr>
+    <div class="text">
+        There are myriad of products and spots that you can see in Arbaminch
+        <ul>
+            <li>Established shortly after Aksum’s leaders converted to Christianity, the 4th-century Cathedral of Tsion Maryam (Mary of Zion) is Ethiopia’s oldest church. The original church, modeled on Solomon’s Temple in Jerusalem, fell victim to the warrior queen Gudit in the 10th century, but the foundations of one of the original 12 temples are still visible. A replacement church, built in the 17th-century Gondarine style by Emperor Fasilidas, has a beautifully painted interior.</li>
+            <li>Aksum’s Chapel of the Tablet is said to be where the Biblical Ark of the Covenant now resides. According to legend, this holiest of Old Testament artifacts was carried to Ethiopia by Emperor Menelik I – son of the Queen of Sheba and King Solomon of Jerusalem – some 3,000 years ago.</li>
+            <li>A pre-Christian Stelae Field opposite Maryam Tsion incorporates the tallest blocks of solid stone ever erected in ancient times. The largest of the giant stelae, a 33-meter tall granite megalith attributed to the 3rd-century King Remhai, toppled over and shattered whilst it was being erected. Alongside it, the two tallest standing stelae are both comparable in stature to a ten-storey building, standing 25 and 23 meters high.</li>
+            <li>The Aksum Archaeological Museum displays a wealth of ancient artifacts uncovered around Aksum, ranging from 3rd century Aksumite coins to glasses imported from Egypt.</li>
+            <li>Other sites of interest include May Shum (also known as the Queen of Sheba’s pool), the ruined Dongar Palace, a trilingual tablet inscribed in Sabaean, Ge’ez, and Greek by King Ezana, and the 6th-century tombs of Kaleb and Gebre Meskel.</li>
+        </ul>
+    </div>
+    
+    <h2 class="drop-head">Getting There</h2>
+        <div class="drop-text">
+            <div class="text">
+                Lies 1024 km north of Addis Ababa via Mekele or 1180 km via Gondar.
+<br><br>
+Daily flights connect Askum to Gondar, Lalibela, and Addis Ababa (www.ethiopianairlines.com). The airport is about 5km east of the town center and most hotels offer a free transfer service.
+<br><br>
+Tours can be booked with local tour operators in Addis Ababa and the main towns.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Getting Around</h2>
+        <div class="drop-text">
+            <div class="text">
+                Taxis and bajaji (tuc-tucs) are readily available to visit all the tourists sites in and around town. Any hotel or tour operator can arrange more formal transport. Guides are optional but recommended and can be arranged at the Aksum Guides Association next to the ticket office for the central stelae field.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Accommodation</h2>
+        <div class="drop-text">
+            <div class="text">
+                Dozens of hotels are scattered around central Aksum such as Atrons Fantasy Hotel and Spa, Yared Zema International Hotel, Sabean International Hotel, Obelisk Hotel, Brana Hotel, Consolar International Hotel, Yeha Hotel, Armah International Hotel, Ethiopis Hotel, Atse Kaleb Hotel, Nyala Hotel and others, most of them catering to the budget and midrange market. There are also a few upmarket options.
+            </div>
+        </div>      
+    <hr>
+    
+
+    <div class="footer">
+        <div class="upperfoot">
+            <div class="footlogo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+
+            <div class="links">
+                <h3>Usefull Links</h3>
+                <li><a href="..\..\Home_page\index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+            </div>
+            <div class="footericons">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                   <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                   <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                   <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                </div>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                    <div class="icons">
+                        <li><i class="fa fa-map"></i></li>
+                        <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                        <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                    </div>
+            </div>
+
+            <div class="fcontent">
+                <div class="links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="..\..\Home_page\index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                </div>
+                <div class="footericons">
+                    <h3>Follow Us</h3>
+                    <div class="icons">
+                       <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                       <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                       <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                    </div>
+                </div>
+                <div class="address">
+                    <h3>Address</h3>
+                        <div class="icons">
+                            <li><i class="fa fa-map"></i></li>
+                            <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                            <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                        </div>
+                </div>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="footersection">
+            <p>© 2023 Ethiopian Tourism. All rigths reserved</p>
+            <div class="ptc">
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms and Conditions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

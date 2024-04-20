@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fc0e7b7945.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="background"></div>
+        <div class="header-img-description">
+            Gonder
+        </div>
+        <div class="nav">
+            <a href="..\..\..\Home_page\index.html"><img id="logo" src="images/logo.jpg" alt="logo/Home"></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Destination</button>
+                    <div class="dropdown-content">
+                        <!-- ..\Destination_page
+
+                    ..\Home_page\index.html -->
+                        <a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a>
+                        <a href="..\index.html">North Ethiopia</a>
+                        <a href="..\..\South_Ethiopia\index.html">South Ethiopia</a>
+                        <a href="..\..\East\index.html">The Marvel of the East</a>
+                        <a href="..\..\Afar\index.html">The Afar</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Things to do</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a>
+                        <a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your Trip</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a>
+                        <a href="..\..\..\Plan_your_trip\book_flight\index.html">Book a Flight</a>
+                        <a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a>
+                        <a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">About Ethiopia</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a>
+                        <a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a>
+                        <a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a>
+                        <a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Lifestyle</a>
+                    </div>
+                </div>
+                
+                <a id="signup" href="..\..\..\SignUp_page\signup.html" target="_blank">Sign Up</a>
+            </div>
+
+            <!-- for mobile phones -->
+
+            <a href="javascript:void(0);" class="hum-button" onclick="humClick()">
+                <i id="hum1" class="fa-solid fa-bars list-down"></i>
+                <i id="hum2" class="fa-solid fa-xmark cancel-list"></i>
+            </a>
+            <div id="menubtn" class="menu">
+                <div class="drop-content">
+                    <div class="menu-button">Destination</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a></div>
+                        <div class="menu-link"><a href="..\index.html">North Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\South_Ethiopia\index.html">South Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\East\index.html">The Marvel of the East</a></div>
+                        <div class="menu-link"><a href="..\..\Afar\index.html">The Afar</a></div> 
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Things to do</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a></div>
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a></div>
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Plan your Trip</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\book_flight\index.html">Book your Flight</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a></div>
+                    </div>
+
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">About Ethiopia</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Life Style</a></div>
+                    </div>
+                </div>
+                <a href="..\..\..\signup.html" target="_blank">Sign Up</a>
+            </div>
+            <!-- mobile ends here -->
+        </div>
+    </div>
+
+    <section class="description">
+        <p>Dubbed the Camelot of Africa, the city of Gondar — the capital of Ethiopia from 1636 until the mid 19th century — combines a modern veneer with an architectural sensibility harking back to the Middle Ages. The city’s physical and architectural centerpiece is Fasil Ghebbi, a stone-walled Royal Compound containing half a dozen fairytale castles including the three-story original built by Emperor Fasil in the 1630s. The Fasil Ghebbi UNESCO World Heritage Site also incorporates several more remote constructions, most notably the Church of Debre Berhan Selassie, with its beautifully painted interior.</p>
+    </section>
+
+    <h2>What to see?</h2>
+    <hr>
+    <div class="text">
+        There are myriad of products and spots that you can see in Arbaminch
+        <ul>
+            <li>Enclosed by tall stone walls, the central Fasil Ghebbi is a 7-hectare ‘Royal Compound’ housing six fortified stone castles built from the 1630s onward. The most striking is Emperor Fasil’s three-story castle, which stands 32 meters high, and displays a blend of Portuguese, Indian, and indigenous Aksumite influences typical of the Gondarine style.</li>
+            <li>Consecrated in 1693 under Emperor Iyasu I, Debre Berhan Selassie (‘Mountain of the Enlightened Trinity) was the only major Gondarine church to survive the Mahdist attack of 1888 unscathed – thanks, legend has it, to the intervention of a virulent bee swarm. The ceiling, adorned with 17th-century paintings of 80 cherubic faces, is probably the most famous ecclesiastic artwork in Ethiopia.</li>
+            <li>The sunken Fasil’s Pool, overlooked by a two-story building attributed to Emperor Fasil, is where Gondar’s legendarily colorful annual Timkat (Ethiopian Epiphany) celebrations take place on January 19 (a day later in Leap Years).</li>
+            <li>Named after a Coptic convent in Egypt, the 18th-century Kuskuam Palace was constructed on the slopes of Debre Tsehay (Mountain of Sun) for the charismatic Empress Mentewab, wife of Emperor Bakaffa, and regent to their son Iyasu II and grandson Iyaos I.</li>
+            <li>On the northern outskirts of Gondar, an abandoned synagogue at Woleka evokes the story of Beta Israel, a ‘lost tribe’ of Ethiopian Jews whose last 10,000-or-so adherents were airlifted to Israel during the 1980s.</li>
+            <li>Old Gorgora, on the Lake Tana shore 65km south of Gondar, houses the most remote of the sites that comprise the Fasil Ghebbi UNESCO World Heritage Site: a ruined castle and Catholic church called Maryam Gimb.</li>
+        </ul>
+The 14th-century Monastery of Debre Sina Maryam, a monastic church at ‘new’ Gorgora, is decorated with some of Ethiopia’s oldest surviving paintings, executed in the 1620s under the patronage of Melakotawit, the elder sister of Emperor Fasil
+    </div>
+    
+    <h2 class="drop-head">Getting There</h2>
+        <div class="drop-text">
+            <div class="text">
+                Lies 1024 km north of Addis Ababa via Mekele or 1180 km via Gondar.
+<br><br>
+Daily flights connect Askum to Gondar, Lalibela, and Addis Ababa (www.ethiopianairlines.com). The airport is about 5km east of the town center and most hotels offer a free transfer service.
+<br><br>
+Tours can be booked with local tour operators in Addis Ababa and the main towns.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Getting Around</h2>
+        <div class="drop-text">
+            <div class="text">
+                Taxis and bajaji (tuc-tucs) are readily available to visit all the tourists sites in and around town. Any hotel or tour operator can arrange more formal transport. Guides are optional but recommended and can be arranged at the Aksum Guides Association next to the ticket office for the central stelae field.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Accommodation</h2>
+        <div class="drop-text">
+            <div class="text">
+                Dozens of hotels are scattered around central Aksum such as Atrons Fantasy Hotel and Spa, Yared Zema International Hotel, Sabean International Hotel, Obelisk Hotel, Brana Hotel, Consolar International Hotel, Yeha Hotel, Armah International Hotel, Ethiopis Hotel, Atse Kaleb Hotel, Nyala Hotel and others, most of them catering to the budget and midrange market. There are also a few upmarket options.
+            </div>
+        </div>      
+    <hr>
+    
+
+    <div class="footer">
+        <div class="upperfoot">
+            <div class="footlogo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+
+            <div class="links">
+                <h3>Usefull Links</h3>
+                <li><a href="..\..\Home_page\index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+            </div>
+            <div class="footericons">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                   <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                   <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                   <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                </div>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                    <div class="icons">
+                        <li><i class="fa fa-map"></i></li>
+                        <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                        <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                    </div>
+            </div>
+
+            <div class="fcontent">
+                <div class="links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="..\..\Home_page\index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                </div>
+                <div class="footericons">
+                    <h3>Follow Us</h3>
+                    <div class="icons">
+                       <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                       <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                       <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                    </div>
+                </div>
+                <div class="address">
+                    <h3>Address</h3>
+                        <div class="icons">
+                            <li><i class="fa fa-map"></i></li>
+                            <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                            <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                        </div>
+                </div>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="footersection">
+            <p>© 2023 Ethiopian Tourism. All rigths reserved</p>
+            <div class="ptc">
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms and Conditions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

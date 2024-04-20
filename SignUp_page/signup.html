@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sign Up - Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="signup" class="box">
+            <div class="side">
+                <h1>Welcome Back</h1>
+                <p>To keep connected with us please login with your personal information</p>
+                <button onclick="(document.getElementById('signin').style.display = 'flex')&&(document.getElementById('signup').style.display = 'none')" class="btn" id="inbtn">Sign In</button>
+            </div>
+            <div class="form">
+                <h1>Create Account</h1>
+                <div class="default">
+                    <div class="icons">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+                or use your email for registration
+                <form>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password1" pattern="[A-Za-z0-9]{8}" placeholder="Create Password" required>
+                    <input type="password" name="password2" pattern="[A-Za-z0-9]{8}" placeholder="Confirm Password" required>
+                    <input type="submit" class="submit" name="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        
+        <div id="signin" class="box">
+            <div class="form">
+                <h1>Sign In</h1>
+                <div class="default">
+                    <div class="icons">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+                or use your email account
+                <form>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password1" pattern="[A-Za-z0-9]{8}" placeholder="Password" required>
+                    <input type="submit" class="submit" name="submit" value="Submit">
+                </form>
+            </div>
+            <div class="side">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start your new journey with us</p>
+                <button onclick="(document.getElementById('signup').style.display = 'flex')&&(document.getElementById('signin').style.display = 'none')" class="btn" id="upbtn">Sign Up</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fc0e7b7945.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="background"></div>
+        <div class="header-img-description">
+            Bale Mountains National Park
+        </div>
+        <div class="nav">
+            <a href="..\..\..\Home_page\index.html"><img id="logo" src="images/logo.jpg" alt="logo/Home"></a>
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">Destination</button>
+                    <div class="dropdown-content">
+                        <!-- ..\Destination_page
+
+                    ..\Home_page\index.html -->
+                        <a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a>
+                        <a href="..\..\North_Ethiopia\index.html">North Ethiopia</a>
+                        <a href="..\..\South_Ethiopia\index.html">South Ethiopia</a>
+                        <a href="..\index.html">The Marvel of the East</a>
+                        <a href="..\..\Afar\index.html">The Afar</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Things to do</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a>
+                        <a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Plan your Trip</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a>
+                        <a href="..\..\..\Plan_your_trip\book_flight\index.html">Book a Flight</a>
+                        <a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a>
+                        <a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">About Ethiopia</button>
+                    <div class="dropdown-content">
+                        <a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a>
+                        <a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a>
+                        <a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a>
+                        <a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Lifestyle</a>
+                    </div>
+                </div>
+                
+                <a id="signup" href="..\..\..\SignUp_page\signup.html" target="_blank">Sign Up</a>
+            </div>
+
+            <!-- for mobile phones -->
+
+            <a href="javascript:void(0);" class="hum-button" onclick="humClick()">
+                <i id="hum1" class="fa-solid fa-bars list-down"></i>
+                <i id="hum2" class="fa-solid fa-xmark cancel-list"></i>
+            </a>
+            <div id="menubtn" class="menu">
+                <div class="drop-content">
+                    <div class="menu-button">Destination</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\Addis_Ababa_and_Surrounding\index.html">Addis Ababa and Surrounding</a></div>
+                        <div class="menu-link"><a href="..\..\North_Ethiopia\index.html">North Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\..\South_Ethiopia\index.html">South Ethiopia</a></div>
+                        <div class="menu-link"><a href="..\index.html">The Marvel of the East</a></div>
+                        <div class="menu-link"><a href="..\..\Afar\index.html">The Afar</a></div> 
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Things to do</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\cultural_experience\index.html">Culture Experiances</a></div>
+                        <div class="menu-link"><a href="..\..\..\Things_to_do\nature_experience\index.html">Nature Experiances</a></div>
+                    </div>
+                    
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">Plan your Trip</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\get_visa\index.html">Get your Visa</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\book_flight\index.html">Book your Flight</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\when_to_travel\index.html">When to Travel</a></div>
+                        <div class="menu-link"><a href="..\..\..\Plan_your_trip\health_and_safety\index.html">Health and Safety</a></div>
+                    </div>
+
+                </div>
+                <div class="drop-content">
+                    <div class="menu-button">About Ethiopia</div>
+                    <div class="link-content">
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\about_the_country\index.html">About the Country</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Ethiopia_today\index.html">Ethiopia Today</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\flora_and_fauna\index.html">Fauna and Flora</a></div>
+                        <div class="menu-link"><a href="..\..\..\About_Ethiopia\Lifestyle\index.html">Life Style</a></div>
+                    </div>
+                </div>
+                <a href="..\..\..\signup.html" target="_blank">Sign Up</a>
+            </div>
+            <!-- mobile ends here -->
+        </div>
+    </div>
+
+    <section class="description">
+        <p>Ethiopia’s most important biodiversity hotspot, Bale Mountains National Park supports a rich mosaic of high-altitude habitats including lush evergreen forest, stands of giant bamboo, pastel-shaded moorland, and sheltered river valleys swathed in fragrant juniper-hagenia woodland. Nominated as a tentative UNESCO Natural World Heritage Site in 2009, the park is the most important stronghold to three endemic large mammal species – the charismatic Ethiopian wolf, handsome mountain nyala, and delightful Bale monkey – while its incredible avifauna is reflected by the African Birding Club having listed it as one of the continent’s top five birding hotspots.
+            <br><br>
+            Bale’s high-altitude centerpiece is the Sanetti Plateau, a vast lava plateau interspersed with several 4,200-plus meter volcanic cones.
+            <br><br>Sanetti is the world’s most extensive Afro-Alpine moorland, comprising tussocks of heather interspersed with icy tarns and ethereal giant lobelias. The northern slopes below Sanetti support a mix of juniper-hagenia woodland and Afromontane grassland, while the southern slopes are layered with altitudinal bands of Erica, bamboo, and Afromontane forest
+        </p>
+    </section>
+
+    <h2>What to see?</h2>
+    <hr>
+    <div class="text">
+        <ul>
+            <li>Bale’s 1,300-plus plant species include 160 Ethiopian endemics and 23 unique to the park.</li>
+            <li>Bale is the main global stronghold for the endangered Ethiopian wolf, a handsome red-and-white canid often seen trotting through the heather of the Sanetti Plateau, where it feeds on rodents such as the endemic giant mole-rat.</li>
+            <li>Bale is the last main stronghold for the endangered mountain nyala, a large spiral-horned antelope most often seen on the short walking trail that runs through the juniper-hagenia forest around the park headquarters at Dinsho. Other mammals often encountered at Dinsho include warthog, Bohor reedbuck, and Menelik’s bushbuck.</li>
+            <li>The Harenna Forest south of Sanetti supports the park’s richest variety of large mammals, These include the remarkable giant forest hog (the world’s largest swine) and the very localized Bale monkey, a vulnerable endemic whose tiny range is attributable to its specialized diet of bamboo.</li>
+            <li>Bale stands out as the best place in Ethiopia to see endemic birds. Six national endemics are present, alongside another 11 species shared only with Eritrea, and several others unique to the Horn of Africa. Juniper-hagenia forest around Dinsho hosts woodland species such as white-cheeked turaco, yellow-fronted parrot, black-winged lovebird, and Abyssinian catbird, while high-altitude specialties on Sanetti include Rouget’s rail, chestnut-naped francolin, Spot-breasted plover, and alpine chat.</li>
+            <li>Bale supports the only known sub-Saharan breeding populations of a golden eagle, ruddy shelduck, and red-billed chough, underscoring the Palaearctic affiliations of Ethiopia’s wildlife.</li>
+            <li>Bale is a superb destination for hiking and mule-back treks. A good starting point for walkers is the undemanding trail around Dinsho, or the half-day Bamboo and Waterfall Trail in the Harenna Forest. Longer trails out of Dinsho, mostly above the 3,000m contour, take from two to eleven days.</li>
+            <li>Bale is surprisingly easy to explore by vehicle, with all-weather roads offering access to most of its more alluring habitats – indeed all-weather road across the Sanetti Plateau to the 4,377m peak of Mount Tulu Dimtu is the highest in Africa.</li>    
+        </ul>
+    </div>
+    
+    <h2 class="drop-head">Getting There</h2>
+        <div class="drop-text">
+            <div class="text">
+                Dinsho, the park headquarters, is 370km from Addis Ababa via Adama and Asela, the quickest and least trafficked road route. An alternative 420km route via Shashemene is preferred by tours that also include the Rift Valley lakes. Tours can be booked with local tour operators in the main towns.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Getting Around</h2>
+        <div class="drop-text">
+            <div class="text">
+                An all-weather road runs from Dinsho via Robe to Goba before continuing south to traverse the Sanetti Plateau and then descend into the Harenna Forest. This road offers good wildlife viewing and birding and comes with a good chance of spotting many endemics, but the likes of Dinsho and the Harenna Forest will be more productive explored on foot. Multi-day hikes can be organized at the guides association and ticketing office at Dinsho.
+            </div>
+        </div>      
+    <hr>
+    <h2 class="drop-head">Accommodation</h2>
+        <div class="drop-text">
+            <div class="text">
+                A world-class Bale Mountain Lodge opened in the Harenna Forest in 2014. Elsewhere, budget to midrange accommodation is available in Goba and Robe, and at Dinsho. Five overnight hiking huts stud the hiking trails through the Adaba-Dodola Integrated Forest Management Project, but the only option for hikers within the national park is camping, using your own gear or equipment hired at Dinsho.
+            </div>
+        </div>      
+    <hr>
+    
+
+    <div class="footer">
+        <div class="upperfoot">
+            <div class="footlogo">
+                <img src="images/logo.jpg" alt="logo">
+            </div>
+
+            <div class="links">
+                <h3>Usefull Links</h3>
+                <li><a href="..\..\..\Home_page\index.html">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+            </div>
+            <div class="footericons">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                   <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                   <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                   <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                </div>
+            </div>
+            <div class="address">
+                <h3>Address</h3>
+                    <div class="icons">
+                        <li><i class="fa fa-map"></i></li>
+                        <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                        <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                    </div>
+            </div>
+
+            <div class="fcontent">
+                <div class="links">
+                    <h3>Usefull Links</h3>
+                    <li><a href="..\..\Home_page\index.html">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                </div>
+                <div class="footericons">
+                    <h3>Follow Us</h3>
+                    <div class="icons">
+                       <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                       <li><a href=""><i class="fa fa-instagram"></i> Instagram</a></li>
+                       <li><a href=""><i class="fa fa-twitter"></i> Twitter</a></li>
+                    </div>
+                </div>
+                <div class="address">
+                    <h3>Address</h3>
+                        <div class="icons">
+                            <li><i class="fa fa-map"></i></li>
+                            <li><a href="tel:+251927582777"><i class="fa fa-phone"></i>+251927582777</a></li>
+                            <li><a href="mailto:fake@gmail.com"><i class="fa fa-envelope"></i><em>fake@gmail.com</em></a></li>
+                        </div>
+                </div>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="footersection">
+            <p>© 2023 Ethiopian Tourism. All rigths reserved</p>
+            <div class="ptc">
+                <p><a href="">Privacy Policy</a></p>
+                <p><a href="">Terms and Conditions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
